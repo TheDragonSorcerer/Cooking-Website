@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #f78dd0;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  
+  #MakeAgainSoupsAndStews {
+  
+    text-align: center;
+  
+  }
+  
+  /* Navigation bar */
+  
+  ul {list-style-type: none; margin: 0; padding: 0; background: pink; overflow: hidden;}
+  
+  li button {display: block; text-align: center; text-decoration: none; color: black; padding: 10px; float: left;}
+  
+  li button.current { background: hotpink;}
+  li button:hover {background: deeppink; color: white;}
+  li button {background: pink;}
+  
+  /* end of Navigation bar */
+  
+  .soupStew {display: none;}
+  .desserts {display: none;}
+  .breakfasts {display: none;}
+  .about {display: none;}
